@@ -6,9 +6,7 @@
 # * $dependencies  package dependencies
 
 function git-refresh --on-variable PWD \
-	-d "Automatically refresh git repositiry \
-	wherever you CD to a dir under git tracking"
-
+  --description "git pull automatically wherever inside a git repository"
     set --local hasGit (find ./ -maxdepth 1 -type d -name .git -print)
     if test "$hasGit" = "./.git"
         echo -e "\e[1mINFO :: GIT repo detected\e[0m"
