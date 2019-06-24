@@ -9,14 +9,14 @@
 
 <br/>
 
-# Introductions
+# Introduction
 
-Let **git-refresh** automatically update and pull code whenever
-you `cd` to a git managed directory.
+**git-refresh** automates pulling your git managed repositories
+as soon as you `cd` into them.
 
-Hail Automation! :)
+No command, no fuss required. Just plain old-fashioned simple automation.
 
-Hope it save you some and hopefulle some frustration.
+Hope it saves you some time and hopefully some frustration overtime.
 
 Project aim is that you never see the following git error warning 
 
@@ -28,6 +28,8 @@ To prevent you from losing history, non-fast-forward updates were rejected
 Merge the remote changes (e.g. 'git pull') before pushing again.  See the
 'Note about fast-forwards' section of 'git push --help' for details.
 ```
+
+Hail Automation! :)
 
 ## Demo
 
@@ -44,9 +46,9 @@ $ omf install git-refresh
 
 Upon successfull installation, just relax and let the
 plugin take care of pulling git repo as soon as you
-cd to *git managed* directory.
+cd to any *git managed* directory.
 
-It executes automatically
+It executes automatically. :relaxed:
 
 
 # License
