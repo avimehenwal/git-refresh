@@ -9,6 +9,29 @@
 
 <br/>
 
+# Introductions
+
+Let **git-refresh** automatically update and pull code whenever
+you `cd` to a git managed directory.
+
+Hail Automation! :)
+
+Hope it save you some and hopefulle some frustration.
+
+Project aim is that you never see the following git error warning 
+
+```
+To https://github.com/USERNAME/REPOSITORY.git
+  ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/USERNAME/REPOSITORY.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+```
+
+## Demo
+
+![git-refresh-demo](git-refresh.png)
 
 ## Install
 
@@ -19,9 +42,11 @@ $ omf install git-refresh
 
 ## Usage
 
-```fish
-$ git-refresh
-```
+Upon successfull installation, just relax and let the
+plugin take care of pulling git repo as soon as you
+cd to *git managed* directory.
+
+It executes automatically
 
 
 # License
@@ -30,8 +55,8 @@ $ git-refresh
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/plugin-git-refresh/graphs/contributors
+[author]:         https://github.com/avimehenwal
+[contributors]:   https://github.com/avimehenwal/plugin-git-refresh/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
