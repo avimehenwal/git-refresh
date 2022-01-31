@@ -7,7 +7,7 @@
 
 function git-refresh --on-variable PWD \
   --description "git pull automatically wherever inside a git repository"
-    set --local hasGit (find ./ -maxdepth 1 -type d -name .git -print)
+    set --local hasGit (find . -maxdepth 1 -type d -name .git -print)
     if test "$hasGit" = "./.git"
         echo -e "\e[1m(git-refresh) - GIT repo detected\e[0m"
         git pull --all --verbose
