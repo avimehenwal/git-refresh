@@ -1,11 +1,15 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
 #### git-refresh
+
+This is a fork of avimehenwal/git-refresh, which fixes an issue with the 'find' command when run on MacOS with the latest fish (V3.5.1).
+
 > A plugin for [Oh My Fish][omf-link].
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
+
+- NOTE: See Install for installation method via fisher.  This version is NOT available directly via OMF.
 
 <br/>
 
@@ -38,7 +42,7 @@ Hail Automation! :)
 ## Install
 
 ```fish
-$ omf install git-refresh
+$ fisher install PJC-64/git-refresh
 ```
 
 
