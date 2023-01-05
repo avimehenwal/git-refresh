@@ -2,7 +2,7 @@
 
 #### git-refresh
 
-This is a clone of avimehenwal/git-refresh, which fixes an issue with the 'find' command when run on MacOS with the latest fish (V3.5.1).
+This is a fork of avimehenwal/git-refresh, which fixes an issue with the 'find' command when run on MacOS with the latest fish (V3.5.1).
 
 > A plugin for [Oh My Fish][omf-link].
 
