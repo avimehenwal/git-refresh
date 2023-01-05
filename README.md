@@ -8,7 +8,8 @@ This is a clone of avimehenwal/git-refresh, which fixes an issue with the 'find'
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](https://fishshell.com)
-[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
+
+- NOTE: See Install for installation method via fisher.  This version is NOT available directly via OMF.
 
 <br/>
 
