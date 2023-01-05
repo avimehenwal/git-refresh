@@ -41,7 +41,7 @@ Hail Automation! :)
 ## Install
 
 ```fish
-$ omf install git-refresh
+$ fisher install PJC-64/git-refresh
 ```
 
 
